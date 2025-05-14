@@ -1,0 +1,39 @@
+/* This file contains the styles for the buttons */
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+/**********************************************************************************************************************/
+.tab-button {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    transition: color 0.25s;
+}
+
+.tab-button:hover {
+    background-color: #1a1a1a;
+}
+
+/**********************************************************************************************************************/
+.admin-buttons-container .browser-button {
+    color: #151515;
+}
